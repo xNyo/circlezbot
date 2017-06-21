@@ -47,6 +47,9 @@ async def referral(chat, match):
             "inline_keyboard": [[{
                 "text": emojize(":money_with_wings: Registrati e ricevi 5€ gratis"),
                 "url": "https://www.circle.com/invite/{}".format(ref["referral"])
+            }], [{
+                "text": emojize(":thumbs_up: Ho ricevuto i miei 5€!"),
+                "callback_data": "done"
             }]]
         }), parse_mode="markdown", disable_web_page_preview=True)
     else:

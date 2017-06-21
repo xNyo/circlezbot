@@ -39,6 +39,7 @@ INSTRUCTIONS = emojize("""
 *2.* Inserite nei campi appositi: nome, cognome, email e password.
 *3.* Una volta registrati arriverà una notifica a noi admin, *vi contatteremo in privato su Circle* per iniziare la procedura.
 *4.* *Vi invieremo*, tramite chat privata, *5 euro*. Voi dovrete *rimandare questi 5 euro al mittente*. Eseguita questa operazione per 5 volte, Circle caricherà 5 euro sia a voi che al proprietario del codice.
+*5.* Una volta ricevuti i 5€, clicca sul pulsante *"Ho ricevuto i miei 5€" sotto a questo messaggio.*
 
 _NB: È una procedura che si può eseguire un'unica volta con un nuovo utente, registrato con un codice referral. Non si possono eseguire con utenti già registrati. Siete liberi però di trovare per conto vostro tutti gli amici che volete, facendoli registrare con il vostro codice (o link di invito) ed eseguendo questa stessa transazione._
 
@@ -48,4 +49,12 @@ _NB: È una procedura che si può eseguire un'unica volta con un nuovo utente, r
 ALREADY_USED = emojize("""
 :warning: *ATTENZIONE!*
 Hai già richiesto un referral per registrarti, non puoi registrare più di un account!
+""")
+
+DONE = emojize("""
+:thumbs_up: *Ottimo!* Puoi invitare altre persone a registrarsi su Circle con il tuo link d'invito che trovi su Circle!
+
+_Sei stato rimosso dal gruppo di Circle Pay Italia per aver completato correttamente la procedura, alla prossima!_
+
+:backhand_index_pointing_down: *Altri link utili* :backhand_index_pointing_down:
 """)

@@ -39,6 +39,8 @@ def main():
 
     from commands import start
     from commands import referral
+    from commands import done
+    from commands import chatid
 
     print("Click da circlez")
     bot.run()

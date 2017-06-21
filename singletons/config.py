@@ -14,6 +14,8 @@ class Config:
             "DB_DATABASE": config("DB_DATABASE", default="girada"),
             "DB_POOL_SIZE": config("DB_POOL_SIZE", default="8", cast=int),
 
+            "GROUP_ID": config("GROUP_ID", default="", cast=int),
+
             "TELEGRAM_API_TOKEN": config("TELEGRAM_API_TOKEN", default=""),
 
             "SENTRY_DSN": config("SENTRY_DSN", default=""),
