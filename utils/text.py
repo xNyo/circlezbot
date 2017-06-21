@@ -22,7 +22,7 @@ _Questo perchè lo scopo dell'azienda non è far arricchire i furbi ma permetter
 
 
 :money-mouth_face: *Vuoi ricevere i tuoi 5€ tramite Circle?*
-Usa il comando /referral per ricevere il tuo codice referral e le istruzioni su come proseguire!
+:backhand_index_pointing_down: *Clicca sul pulsante qui sotto!* :backhand_index_pointing_down:
 """)
 
 ADMIN_REFERRAL_NOTIFY = emojize("""
@@ -38,13 +38,11 @@ INSTRUCTIONS = emojize("""
 *1.* *Registrati* su circle tramite [questo link](https://www.circle.com/invite/{code}) _(o tramite il pulsante in fondo a questo messaggio)_
 *2.* Inserite nei campi appositi: nome, cognome, email e password.
 *3.* Una volta registrati arriverà una notifica a noi admin, *vi contatteremo in privato su Circle* per iniziare la procedura.
-*4.* *Collega la tua carta di credito o conto bancario* _(va bene anche una Postepay o un conto Hype)_ dal sito di Circle.
+*4.* *Collega la tua carta di credito o carta Hype* _(va bene anche una Postepay)_ dal sito di Circle.
 *5.* *Vi invieremo*, tramite chat privata, *5 euro*. Voi dovrete *rimandare questi 5 euro al mittente*. Eseguita questa operazione per 5 volte, Circle caricherà 5 euro sia a voi che al proprietario del codice.
 *6.* Una volta ricevuti i 5€, clicca sul pulsante *"Ho ricevuto i miei 5€" sotto a questo messaggio.*
 
 _NB: È una procedura che si può eseguire un'unica volta con un nuovo utente, registrato con un codice referral. Non si possono eseguire con utenti già registrati. Siete liberi però di trovare per conto vostro tutti gli amici che volete, facendoli registrare con il vostro codice (o link di invito) ed eseguendo questa stessa transazione._
-
-:backhand_index_pointing_down: *Clicca qui per registrarti* :backhand_index_pointing_down:
 """)
 
 ALREADY_USED = emojize("""
@@ -58,4 +56,16 @@ DONE = emojize("""
 _Sei stato rimosso dal gruppo di Circle Pay Italia per aver completato correttamente la procedura, alla prossima!_
 
 :backhand_index_pointing_down: *Altri link utili* :backhand_index_pointing_down:
+""")
+
+INSTRUCTIONS_WARNING = emojize("""
+:warning: *Attenzione!* Se decidi di proseguire, assicurati di:
+*1.* Avere a disposizione *in questo momento* di una carta di credito, una Postepay o una carta Hype *anche senza denaro al suo interno*
+*2.* Essere sicuro al *100%* di voler effettuare questa procedura _(richiede 5 minuti ed il bonus di 5€ è garantito, senza spese)_
+*3.* *Non essere già registrato a Circle*, poichè è possibile ottenere il bonus di 5€ solo per i nuovi account
+""")
+
+STOP = emojize("""
+:raised_hand: *Va bene*, puoi ritornare da me quando vuoi!
+Usa il comando /start per avviare nuovamente il bot.
 """)

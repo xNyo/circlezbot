@@ -38,9 +38,8 @@ def main():
     bot = Bot(conf["TELEGRAM_API_TOKEN"])
 
     from commands import start
-    from commands import referral
-    from commands import done
     from commands import chatid
+    from commands import callback
 
     print("Click da circlez")
     bot.run()
