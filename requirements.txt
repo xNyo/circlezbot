@@ -1,0 +1,5 @@
+aiomysql==0.0.9
+python-decouple==3.0
+aiotg==0.9.2
+emoji==0.4.5
+raven==6.0.0
