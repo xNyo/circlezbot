@@ -5,7 +5,7 @@ from singletons.bot import Bot
 bot = Bot()
 
 
-@sentry.capture
 @bot.command("start")
+@sentry.capture
 async def start(chat, match):
     await chat.send_text(text.START, parse_mode="markdown")

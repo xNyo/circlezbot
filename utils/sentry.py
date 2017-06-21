@@ -7,4 +7,5 @@ def capture(f):
             return await f(*args, **kwargs)
         except Exception as e:
             SentryClient().captureException()
+            raise
     return wrapper

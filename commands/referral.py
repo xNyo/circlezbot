@@ -11,8 +11,8 @@ from utils import text
 bot = Bot()
 
 
-@sentry.capture
 @bot.command("referral")
+@sentry.capture
 async def referral(chat, match):
     # Check if we have already used a referral
     ref = await Db().fetch("SELECT referrals.* FROM invited LEFT JOIN referrals "
