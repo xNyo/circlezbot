@@ -38,8 +38,9 @@ INSTRUCTIONS = emojize("""
 *1.* *Registrati* su circle tramite [questo link](https://www.circle.com/invite/{code}) _(o tramite il pulsante in fondo a questo messaggio)_
 *2.* Inserite nei campi appositi: nome, cognome, email e password.
 *3.* Una volta registrati arriverà una notifica a noi admin, *vi contatteremo in privato su Circle* per iniziare la procedura.
-*4.* *Vi invieremo*, tramite chat privata, *5 euro*. Voi dovrete *rimandare questi 5 euro al mittente*. Eseguita questa operazione per 5 volte, Circle caricherà 5 euro sia a voi che al proprietario del codice.
-*5.* Una volta ricevuti i 5€, clicca sul pulsante *"Ho ricevuto i miei 5€" sotto a questo messaggio.*
+*4.* *Collega la tua carta di credito o conto bancario* _(va bene anche una Postepay o un conto Hype)_ dal sito di Circle.
+*5.* *Vi invieremo*, tramite chat privata, *5 euro*. Voi dovrete *rimandare questi 5 euro al mittente*. Eseguita questa operazione per 5 volte, Circle caricherà 5 euro sia a voi che al proprietario del codice.
+*6.* Una volta ricevuti i 5€, clicca sul pulsante *"Ho ricevuto i miei 5€" sotto a questo messaggio.*
 
 _NB: È una procedura che si può eseguire un'unica volta con un nuovo utente, registrato con un codice referral. Non si possono eseguire con utenti già registrati. Siete liberi però di trovare per conto vostro tutti gli amici che volete, facendoli registrare con il vostro codice (o link di invito) ed eseguendo questa stessa transazione._
 
