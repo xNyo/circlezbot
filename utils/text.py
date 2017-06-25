@@ -54,8 +54,6 @@ DONE = emojize("""
 :thumbs_up: *Ottimo!* Puoi invitare altre persone a registrarsi su Circle con il tuo link d'invito che trovi su Circle!
 
 _Sei stato rimosso dal gruppo di Circle Pay Italia per aver completato correttamente la procedura, alla prossima!_
-
-:backhand_index_pointing_down: *Altri link utili* :backhand_index_pointing_down:
 """)
 
 INSTRUCTIONS_WARNING = emojize("""

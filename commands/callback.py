@@ -106,15 +106,7 @@ async def callback(chat, cq):
             pass
 
         # Bastardata
-        await chat.edit_text(cq.src["message"]["message_id"], text.DONE, parse_mode="markdown", markup={
-            "inline_keyboard": [[{
-                "text": emojize(":mobile_phone: Sconti dell'80% su prodotti tecnologici"),
-                "url": "http://t.me/giradagroupnetwork"
-            }], [{
-                "text": emojize(":earth_africa: Il nostro network", use_aliases=True),
-                "url": "http://t.me/giaquonetwork"
-            }]]
-        })
+        await chat.edit_text(cq.src["message"]["message_id"], text.DONE, parse_mode="markdown")
     elif cq.data == "stop":
         # Make sure we have already used a referral
         ref = await Db().fetch("SELECT referrals.* FROM invited LEFT JOIN referrals "
