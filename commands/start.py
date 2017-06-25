@@ -12,7 +12,7 @@ bot = Bot()
 @bot.command("start")
 @sentry.capture
 async def start(chat, match):
-    if not chat.is_group():
+    if not chat.is_group() and chat.id > 0:
         await chat.send_text(text.START, parse_mode="markdown", reply_markup=json.dumps({
             "inline_keyboard": [[{
                 "text": emojize(":money_with_wings: Cominciamo!"),
