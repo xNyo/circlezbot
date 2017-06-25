@@ -60,7 +60,8 @@ _Sei stato rimosso dal gruppo di Circle Pay Italia per aver completato correttam
 
 INSTRUCTIONS_WARNING = emojize("""
 :warning: *Attenzione!* Se decidi di proseguire, assicurati di:
-*1.* Avere a disposizione *in questo momento* di una carta di credito, una Postepay o una carta Hype *anche senza denaro al suo interno*
+*1.* Avere con te *in questo momento* una carta di credito, una Postepay o una carta 
+Hype *anche senza denaro al suo interno*
 *2.* Essere sicuro al *100%* di voler effettuare questa procedura _(richiede 5 minuti ed il bonus di 5€ è garantito, senza spese)_
 *3.* *Non essere già registrato a Circle*, poichè è possibile ottenere il bonus di 5€ solo per i nuovi account
 """)
